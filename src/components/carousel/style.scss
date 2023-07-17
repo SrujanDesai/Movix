@@ -140,10 +140,12 @@
                 .genres {
                     // display: none;
                     position: relative;
+                    visibility: hidden;
                     @include md {
                         display: flex;
                         flex-flow: wrap;
                         justify-content: flex-end;
+                        visibility: visible;
                     }
                 }
             }
