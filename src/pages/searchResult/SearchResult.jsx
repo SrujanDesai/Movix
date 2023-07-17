@@ -84,7 +84,7 @@ const SearchResult = () => {
                         </>
                     ) : (
                         <span className="resultNotFound">
-                            Sorry, Results not found!
+                            Sorry, Results not found!!!
                         </span>
                     )}
                 </ContentWrapper>
